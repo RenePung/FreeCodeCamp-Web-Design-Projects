@@ -1,0 +1,129 @@
+html,
+body {
+  min-width: 300px;
+  color: #020d44;
+  background-color: #b9b9b9;
+  font-family: Arial, sans-serif;
+  line-height: 2;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 200%;
+  border-right: solid;
+  border-color: rgba(38, 0, 255, 0.4);
+}
+
+header {
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 20px;
+}
+
+#navbar ul {
+  height: 100%;
+  padding: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #01743e;
+  border-top: 4px solid;
+  list-style: none;
+  position: relative;
+  width: 150%;
+}
+
+#navbar a {
+  display: block;
+  padding: 5px 10px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 280px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+section article {
+  color: #000000;
+  margin: 15px;
+  font-size: 1em;
+}
+
+section li {
+  margin: 17px 0px 0px 22px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 3;
+  background-color: #dd5151;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+  #navbar ul {
+    border: 2px solid;
+    height: 200px;
+  }
+
+  #navbar {
+    background-color: rgb(253, 0, 0);
+    position: absolute;
+    top: 2;
+    padding: 1;
+    margin: 1;
+    width: 100%;
+    max-height: 280px;
+    border: none;
+    z-index: 2;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 2px;
+    margin-top: 280px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #main-doc {
+    margin-left: -9px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 50px;
+    min-width: 240px;
+  }
+}

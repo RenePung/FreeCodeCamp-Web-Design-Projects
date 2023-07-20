@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav id="navbar">
+  <header>CSS Technical Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" 
+     href="#Basic_Syntax">Basic Syntax</a>
+    </li>
+    <li><a class="nav-link" href="#Selectors">Selectors</a></li>
+    <li><a class="nav-link" href="#Element_Selector">Element Selector</a></li>
+    <li>
+      <a class="nav-link" href="#Class_Selector">Class Selector</a>
+    </li>
+    <li><a class="nav-link" href="#ID_Selector">ID Selector</a></li>
+    <li><a class="nav-link" href="#Attribute_Selector">Attribute Selector</a></li>
+    <li><a class="nav-link" href="#Descendant_Selector">Descendant Selector</a></li>
+    <li><a class="nav-link" href="#Properties_and_Values">Properties and Values</a></li>
+    <li>
+      <a class="nav-link" href="#Color">Color</a>
+    </li>
+    <li><a class="nav-link" href="#Font">Font</a></li>
+    <li>
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        CSS, or Cascading Style Sheets, is a markup language used for styling and formatting web pages. With CSS, you can control the appearance of text, images, and other elements on your website. This technical documentation will cover the basic syntax, selectors, properties, and values of CSS.
+      </p>
+</article>
+  </section>
+  
+  <section class="main-section" id="Basic_Syntax">
+    <header>Basic Syntax</header>
+    <article>
+      <p>
+        CSS rules are comprised of a selector and a declaration block. The selector indicates which HTML elements the rule applies to, and the declaration block contains one or more property-value pairs separated by a semicolon.
+      </p>
+    </article>
+  </section>
+  
+  <code>
+        selector {
+  property: value;
+  property: value;
+  property: value;
+}
+
+</code>
+<p>Here's an example of a CSS rule that sets the background color of all paragraphs to yellow:</p>
+<code>p {
+  background-color: yellow;
+}</code>
+  </article>
+  </section>
+  <section class="main-section" id="Selectors">
+    <header>Selectors</header>
+    <p>
+      CSS selectors are used to target specific HTML elements. There are several types of selectors:
+    </p>
+  </section>
+  <section class="main-section" id="Element_Selector">
+    <header>Element Selector</header>
+    <article>
+      Targets HTML elements based on their tag name. For example, p targets all p elements.
+      </p>
+        <code>p {
+  /* properties and values */
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="Class_Selector">
+    <header>Class Selector</header>
+    <article>
+      <p>
+       Targets HTML elements with a specific class name. The class name is preceded by a period. For example, .my-class targets all elements with class="my-class".
+      </p>
+      <code>.my-class {
+  /* properties and values */
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="ID_Selector">
+    <header>ID Selector</header>
+    <article>
+      <p>
+        Targets HTML elements with a specific ID. The ID is preceded by a hash symbol. For example, #my-id targets the element with id="my-id".
+      </p>
+      <code>#my-id {
+  /* properties and values */
+}</code>
+</article>
+  </section>
+  <section class="main-section" id="Attribute_Selector">
+    <header>Attribute Selector</header>
+    <article>
+      <p>
+        Targets HTML elements with a specific attribute. The attribute is enclosed in square brackets. For example, [href] targets all elements with an href attribute.
+      </p>
+
+      <code>[href] {
+  /* properties and values */
+}</code>
+      </article>
+  </section>
+  <section class="main-section" id="Descendant_Selector">
+    <header>Descendant Selector</header>
+    <article>
+      <p>Targets HTML elements that are descendants of another element. The descendant selector uses a space to separate the parent and child elements. For example, ul li targets all li elements that are descendants of a ul element.</p>
+     
+      <code>ul li {
+  /* properties and values */
+}</code>
+    </article>
+  </section>
+  <section class="main-section" id="Properties_and_Values">
+    <header>Properties and Values</header>
+    <article>
+      CSS properties are used to specify the visual style of HTML elements. Properties are followed by a colon, and values are followed by a semicolon. Some common properties and values include:
+    </article>
+  </section>
+  <section class="main-section" id="Color">
+    <header>Color</header>
+    <article>
+      Specifies the color of text or background. Values can be named colors, hexadecimal values, or RGB values.
+
+      <code>color: red;
+background-color: #000000;</code> 
+    </article>
+  </section>
+  <section class="main-section" id="Font">
+    <header>Font</header>
+    <article>
+      Specifies the font family, size, weight, and style of text.<br>
+      Types of fonts :
+        <ul>
+        <li>Arial
+        </li>
+        <li>Times New Roman
+        </li>
+        <li>Helvetica
+        </li>
+        <li>Georgia
+        </li>
+        <li>Open Sans
+        </li>
+        <li> And more ...
+        </li>
+      </ul>
+      <code>font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+font-style: italic;</code>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://chat.openai.com/"
+            target="_blank"
+            >OpenAI</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+  </head>
+  <body>
+	<script src="index.js"></script>
+  </body>
+</html>

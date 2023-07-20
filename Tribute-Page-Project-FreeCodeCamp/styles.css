@@ -1,0 +1,33 @@
+#image {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    position: center;
+    
+  }
+  body {
+    background-color: rgb(18, 12, 12);
+    color: white;
+    font-size: 25px;
+    font-family: Garamond;
+  }
+  h1 {
+    font-family: Garamond;
+    font-size: 70px;
+    color: brown;
+  }
+  
+  h2 {
+    color:brown;
+    font-size: 30px;
+    font-family: Garamond;
+  }
+  h3 {
+    font-family: Garamond;
+    font-size: 20px;
+    color: brown;
+  }
+  a {
+    color: rgb(231, 127, 127);
+  }
